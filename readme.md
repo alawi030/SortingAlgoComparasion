@@ -1,28 +1,55 @@
-# Sorting Algorithms Comparasion
+## Sorting Algorithm Comparison
 
-## Description
+This project compares the performance of two sorting algorithms, namely Bubble Sort and Cycle Sort, using a given dataset. It visualizes the sorting process and measures the execution time of each algorithm. This project is useful for anyone interested in understanding and comparing different sorting algorithms.
 
-This project implements two sorting algorithms, Bubble Sort and Cycle Sort, and compares their performance using a given dataset. It also includes functionality to visualize the sorting process.
+## Features
+
+- Bubble Sort implementation
+- Cycle Sort implementation
+- Visualization of the sorting process
+- Performance measurement of sorting algorithms
+- Comparison of sorting algorithms
 
 ## Installation
 
-To use this project, follow these steps:
+1. Start by cloning this repo:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
-2. Navigate to the project directory: `cd project-directory`
-3. Install the required dependencies: `pip install matplotlib`
+```bash
+git clone https://github.com/alawi030/SortingAlgoComparasion.git
+```
 
-## Usage
+2. Change to the directory of the project:
 
-1. Ensure that the `data.txt` file is present in the project directory. This file should contain the dataset to be sorted, with each element on a new line.
-2. Run the script: `python script.py`
-3. The script will display two plots. The first plot shows the initial state of the dataset, and the second plot shows the sorted dataset.
-4. The script will also print the execution time for each sorting algorithm and display a message indicating which algorithm is faster.
+```bash
+cd SortingAlgoComparasion
+```
+
+3. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage/Examples
+
+1. Start by running the main file:
+
+```bash
+python main.py
+```
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
+Contributions are welcome! If you find any issues or have suggestions for improvements, please create an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](Licence.txt).
+
+## Acknowledgements
+
+The sorting algorithm comparison application was developed using Python and the matplotlib library.
+
+## Contact
+
+For any inquiries or questions, please contact [Ali Almaliki](mailto:alawilmaliki@gmail.com).
